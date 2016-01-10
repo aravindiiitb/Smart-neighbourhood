@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Smart Neighbourhood</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_display_message">Login</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name="title_activity_user_profile">Timeline</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="description">Desciption</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Check poll</item>
+        <item >Request service</item>
+        <item >Request History</item>
+        <item >Add Poll</item>
+        <item >Account Settings</item>
+        <item >Logout</item>
+        <item>Manage users</item>
+        <item>Add Comment</item>
+        <item>Poll</item>
+        <item>Manage Requests</item>
+    </string-array>
+    <string name="latitude_label">Latitude</string>
+    <string name="longitude_label">Longitude</string>
+
+    <string name="no_location_detected">
+        No location detected. Make sure location is enabled on the device.
+    </string>
+    <string-array name="occupations">
+        <item>Carpenter</item>
+        <item>Cleaner</item>
+        <item>Electrician</item>
+        <item>Painter</item>
+        <item>Plumber</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+        <item>@drawable/ic_logout</item>
+        <item>@drawable/ic_logout</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>

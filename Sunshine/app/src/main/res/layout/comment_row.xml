@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/username"
+        android:layout_weight="0.12" />
+
+    <TextView
+        android:id="@+id/etComments"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="40dp"
+        android:lines="5"
+        android:hint="What's on your mind?"
+        android:gravity="top"
+        android:singleLine="false"
+        android:background="@drawable/textinputborder"
+        android:paddingTop="15dp"
+        android:paddingLeft="90dp"
+        android:scrollHorizontally="false"
+        android:inputType="textVisiblePassword"
+        android:layout_weight="0.12" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+</LinearLayout>
